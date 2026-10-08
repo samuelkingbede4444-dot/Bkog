@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bricolage Grotesque", "Trebuchet MS", "Segoe UI", sans-serif;
+
+}
+body{
+    background-color: #EAF1EE ;
+}
+header{
+    padding: 2REM;
+    display: flex;
+    gap: 52REM;
+    H2{
+        padding-left:4REM ;
+    }
+}
+nav ul{
+    display: flex;
+    gap: 2REM;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: 1REM;
+    color: gray;
+}
+nav ul li a:hover{
+   border-bottom: 1px solid ;
+   transition-duration: 3s;
+}
+
+.container-s1{
+    padding: 5REM;
+    
+    H1{
+        font-weight: bolder;
+        font-size: 5REM;
+        font-family: "Bricolage Grotesque", "Trebuchet MS", "Segoe UI", sans-serif;
+    }
+    P{
+        font-size: 1.2REM;
+        font-family: "Figtree", "Segoe UI", system-ui, -apple-system, sans-serif;;
+    }
+}
+.btn1{
+    padding: 1.4rem;
+    width: 10REM;
+    border-radius: 4REM;
+     border: none;
+     background-color: orange;
+     
+    a{
+        text-decoration: none;
+        font-weight: bolder;
+        color: black;
+        
+    }
+}
+.btn2{
+     padding: 1.4rem;
+    width: 10REM;
+    border-radius: 4REM;
+     border: 2px solid  #0F5C4D;
+    a{
+        text-decoration: none;
+        font-weight: bolder;
+        color:  #0F5C4D;
+    }
+}
+.btn2:hover{
+background-color:  #0F5C4D;
+ transition: 0.3s;
+a:hover{
+ color: white;
+ transition: 0.3s;
+}
+}
